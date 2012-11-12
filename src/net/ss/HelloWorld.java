@@ -6,4 +6,9 @@ public class HelloWorld {
 		return "Hello World";
 	}
 
+	public String getMessage(String name) {
+		if(name == null) return getMessage();
+		else return "Hello " + name;
+	}
+
 }
